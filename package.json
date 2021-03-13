@@ -1,0 +1,29 @@
+{
+  "name": "metabase-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "metabase",
+    "sql",
+    "transpiler",
+    "postgres",
+    "sqlserver",
+    "mysql"
+  ],
+  "author": "Benoit Vinay",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
